@@ -101,7 +101,7 @@ footer p {
 
 }
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 1000px) {
 
     .maincopy {
         position:absolute;
@@ -110,6 +110,6 @@ footer p {
         color:whitesmoke;
         font-size: 4em;
     
+    }
+
 }
-
-
