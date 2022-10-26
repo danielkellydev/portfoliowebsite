@@ -19,4 +19,5 @@ Daniel Kelly is a junior developer from Melbourne, Australia. This is a portfoli
 <br><br><br><br><br><br>
 ## Credits/References
 1. Home page image: Photo by Emile Perron on Unsplash
-  
+2. Sweep-to-right animation in navigation menu: https://codepen.io/vxncetxn/pen/GzowEE?editors=0110
+3. Colour scheme: www.coolors.co
