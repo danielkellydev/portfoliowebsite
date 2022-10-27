@@ -13,9 +13,13 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-header img {
-    width: 30%;
-    padding: 5px;
+header a img {
+    width: 20%;
+}
+header a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
    
 
@@ -25,10 +29,8 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
     font-size: 130%;
-    font-weight: 500;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 nav a {
     text-decoration: none;
@@ -72,41 +74,25 @@ nav a:hover{
 /* Page body */
 
 .homeimage {
-    width: 100%;
+    width: 85%;
     padding-top: 20px;
 }
 #mainbody {
-    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .maincopy {
     position:absolute;
-    top: 200px;
-    left:20px;
     color:whitesmoke;
     font-size: 1.5em;
-    overflow: hidden;
-    border-right: .15em solid white;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation: 
-        typing 3.5s steps(30, end),
-        blink-caret .5s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0}
-    to { width: 100%}
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent}
-    50% { border-color: white}
 
 }
     /* Footer */
 
 footer {
-    position:absolute;
+    position:relative;
     width: 100%;
     height:50px;
     display: block;
@@ -143,7 +129,10 @@ footer p {
         left:20px;
         color:whitesmoke;
         font-size: 3em;
-}
+    }
+    header a img {
+        width: 30%;
+    }
 
 }
 
@@ -160,10 +149,10 @@ footer p {
     nav {
 
         justify-content: space-evenly;
-        padding-right: 350px;
-        padding-left: 350px;
+        padding-right: 250px;
+        padding-left: 250px;
     }
-    header img {
+    header a img {
         width: 20%;
     }
 
