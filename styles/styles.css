@@ -80,9 +80,24 @@ nav a:hover:before {
   padding-top: 10px;
 }
 
-.maincopy {
-  color: whitesmoke;
-  font-size: 1.5em;
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.tiles {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  opacity: 70%;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 5px #0cbaba;
+}
+
+.tilewrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Footer */
