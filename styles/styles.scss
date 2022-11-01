@@ -70,7 +70,7 @@ nav a:hover{
   }
 
 
-/* Page body */
+/* Index body */
 
 
 #mainbody {
@@ -85,7 +85,10 @@ nav a:hover{
 }
 h1 {
     text-align: center;
-    padding: 10px;
+    padding: 30px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 25px;
 }
 .tiles {
     width: 350px;
@@ -93,13 +96,47 @@ h1 {
     margin: 20px;
     opacity: 70%;
     border-radius: 12px;
-    box-shadow: 5px 5px 5px 5px $primarycolor;
+    box-shadow: 1px 1px 5px 3px $primarycolor;
 }
-
+.tiles:hover {
+    transform: scale(1.05);
+}
 .tilewrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+// ContactForm 
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    text-align: left;
+}
+
+#fname, #lname, #email {
+    width: 300px;
+    height: 30px;
+    border-width: 1.5px;
+    border-radius: 6px;
+}
+#message {
+    width: 300px;
+    height: 100px;
+    border-width: 1.5px;
+    border-radius: 6px;
+}
+#submit {
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+
+label {
+    font-size: large;
 }
 
 /* Footer */
@@ -110,6 +147,7 @@ footer {
     height:80px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 20px;
     background-color: $primarycolor;
     display: flex;
     justify-content: space-between;
