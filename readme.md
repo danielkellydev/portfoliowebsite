@@ -3,6 +3,10 @@
 
 Daniel Kelly is a junior developer from Melbourne, Australia. This is a portfolio website intended to showcase Daniel's skills and abilities as a full-stack developer. 
 
+## Links
+**Github** https://github.com/danielkellydev/portfoliowebsite
+
+
 ## **Design**
 
 ## *Colour Scheme*
