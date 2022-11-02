@@ -121,6 +121,9 @@ h1 {
   font-size: 30px;
   color: white;
 }
+.contact-form:hover {
+  background-color: #0dc4c4;
+}
 
 .input {
   display: flex;
@@ -147,7 +150,7 @@ h1 {
   background-color: white;
 }
 
-#submit {
+#submit, button {
   width: 340px;
   height: 40px;
   font-size: large;
@@ -156,7 +159,7 @@ h1 {
   background-color: #150811;
   margin-bottom: 50px;
 }
-#submit:hover {
+#submit:hover, button:hover {
   background-color: #333333;
 }
 
@@ -192,7 +195,13 @@ h1 {
   transform: scale(1.01);
 }
 
-.background, .newcareer {
+.resumelink {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+}
+
+.background {
   display: flex;
   flex-direction: column;
   max-width: 700px;
@@ -200,9 +209,12 @@ h1 {
   background-color: #f6f6f6;
   padding: 20px;
 }
-.background:hover, .newcareer:hover {
+.background:hover {
   box-shadow: 0 0 2px 2px;
   transform: scale(1.01);
+}
+.background ul {
+  padding-left: 20px;
 }
 
 /* Footer */

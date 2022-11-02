@@ -123,6 +123,9 @@ h1 {
         font-size: 30px;
         color: white;
     }
+    &:hover {
+        background-color: lighten($color: $primarycolor, $amount: 2)
+    }
 }
 
 .input {
@@ -153,7 +156,7 @@ h1 {
     }
 }
 
-#submit {
+#submit, button {
     width: 340px;
     height: 40px;
     font-size: large;
@@ -166,6 +169,7 @@ h1 {
         background-color: lighten($color: #000000, $amount: 20);
     }
 }
+
 
 .contact {
     display: flex;
@@ -202,7 +206,14 @@ h1 {
         transform: scale(1.01);
     }
 }
-.background, .newcareer {
+
+.resumelink {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.background {
     display: flex;
     flex-direction: column;
     max-width: 700px;
@@ -213,6 +224,9 @@ h1 {
     &:hover {
         box-shadow: 0 0 2px 2px;
         transform: scale(1.01);
+    }
+    ul {
+        padding-left: 20px;
     }
 }
 
