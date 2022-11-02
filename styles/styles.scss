@@ -37,7 +37,7 @@ nav a {
     font-weight: 100;
     position: relative;
     padding: 8px;
-    font-size: 1.4em;
+    font-size: 1.3em;
     display: inline-block;
     transform: perspective(1px) translateZ(0);
     transition: color 0.3s;
@@ -140,13 +140,14 @@ h1 {
     }
 }
 
+
 #message {
     border: 0;
     width: 340px;
     height: 100px;
     background-color: $lightgray;
     padding: 10px 20px;
-
+    
     &:hover {
         background-color: white;
     }
@@ -160,14 +161,59 @@ h1 {
     color:white;
     background-color: #150811;
     margin-bottom: 50px;
-
+    
     &:hover {
         background-color: lighten($color: #000000, $amount: 20);
     }
 }
 
-label {
-    font-size: large;
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+// about page
+
+.me {
+    max-width: 350px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+
+.about {
+    max-width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: $primarycolor;
+    color: white;
+    padding: 20px;
+
+    &:hover {
+        box-shadow: 0 0 2px 2px;
+        transform: scale(1.01);
+    }
+}
+.background, .newcareer {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: $lightgray;
+    padding: 20px;
+
+    &:hover {
+        box-shadow: 0 0 2px 2px;
+        transform: scale(1.01);
+    }
 }
 
 /* Footer */
@@ -209,7 +255,10 @@ footer p {
 
 @media screen and (min-width: 768px) {
     nav a {
-        font-size: 2em;
+        font-size: 2.5em;
+    }
+    .me {
+        max-width: 700px;
     }
    
 }
