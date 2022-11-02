@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Header, including logo */
@@ -108,31 +108,56 @@ h1 {
 }
 
 .contact-form {
+  max-width: 700px;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  text-align: left;
+  background-color: #0cbaba;
+}
+.contact-form h1 {
+  font-size: 30px;
+  color: white;
 }
 
-#fname, #lname, #email {
-  width: 300px;
-  height: 30px;
-  border-width: 1.5px;
-  border-radius: 6px;
+.input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: 0;
+  width: 340px;
+  background-color: #f6f6f6;
+  padding: 10px 20px;
+}
+.input:hover {
+  background-color: white;
 }
 
 #message {
-  width: 300px;
+  border: 0;
+  width: 340px;
   height: 100px;
-  border-width: 1.5px;
-  border-radius: 6px;
+  background-color: #f6f6f6;
+  padding: 10px 20px;
+}
+#message:hover {
+  background-color: white;
 }
 
 #submit {
-  width: 100px;
+  width: 340px;
   height: 40px;
   font-size: large;
+  border: 0;
+  color: white;
+  background-color: #150811;
+  margin-bottom: 50px;
+}
+#submit:hover {
+  background-color: #333333;
 }
 
 label {
@@ -169,6 +194,11 @@ footer p {
   font-size: 1em;
 }
 
+@media screen and (max-width: 600px) {
+  .contact-form {
+    max-width: 95%;
+  }
+}
 @media screen and (min-width: 768px) {
   nav a {
     font-size: 2em;
