@@ -26,3 +26,4 @@ Daniel Kelly is a junior developer from Melbourne, Australia. This is a portfoli
 2. Sweep-to-right animation in navigation menu: https://codepen.io/vxncetxn/pen/GzowEE?editors=0110
 3. Colour scheme: www.coolors.co
 4. Inspiration for contact form: https://www.youtube.com/watch?v=ceGcS5CAi5s
+5. Blog post images: 0fjd125gk87 from Pixabay, Jan Vašek from Pixabay, Firmbee from Pixabay, Gerd Altmann from Pixabay, 

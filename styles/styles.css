@@ -217,6 +217,68 @@ h1 {
   padding-left: 20px;
 }
 
+.heading {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  background-color: #0cbaba;
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.blogpost {
+  max-width: 1000px;
+  padding: 50px;
+  margin: 50px auto;
+  max-height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogimage {
+  flex: 1;
+  max-width: 50%;
+  min-width: 400px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.blogimage img {
+  max-width: 500px;
+}
+
+.blogtext {
+  padding: 10px;
+  padding-top: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+article img {
+  max-width: 100%;
+  margin: 50px auto;
+}
+
+article p {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+
 /* Footer */
 footer {
   width: 100%;
@@ -251,6 +313,12 @@ footer p {
   .contact-form {
     max-width: 95%;
   }
+  .blogpost, .blogimage {
+    max-width: 100%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 768px) {
   nav a {
@@ -258,6 +326,26 @@ footer p {
   }
   .me {
     max-width: 700px;
+  }
+  .heading {
+    font-size: 3em;
+  }
+  .blogpost {
+    align-items: center;
+  }
+  .blogpost .blogimage {
+    max-width: 50%;
+    margin: 10px;
+  }
+  .blogpost .blogtext {
+    max-width: 50%;
+    margin: 10px;
+  }
+  article img {
+    max-width: 60%;
+  }
+  article p {
+    max-width: 60%;
   }
 }
 @media screen and (min-width: 992px) {
