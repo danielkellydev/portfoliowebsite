@@ -84,27 +84,69 @@ h1 {
   text-align: center;
   padding: 30px;
   font-weight: 100;
-  margin-top: 10px;
   font-size: 25px;
+}
+
+.frontcopy {
+  background-color: #f6f6f6;
+  border: solid 2px #0cbaba;
+  margin: 100px;
 }
 
 .tiles {
   width: 350px;
   height: 350px;
   margin: 20px;
-  opacity: 70%;
   border-radius: 12px;
-  box-shadow: 1px 1px 5px 3px #0cbaba;
+  background-color: #0cbaba;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px;
+}
+.tiles .tiletext {
+  font-size: 25px;
+  text-align: center;
 }
 
 .tiles:hover {
   transform: scale(1.05);
+  font-weight: 600;
+  color: white;
 }
 
 .tilewrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.tileicons {
+  max-width: 200px;
+}
+
+.bloglink img {
+  max-width: 375px;
+  height: 280px;
+  overflow: hidden;
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+}
+
+.bloglinks {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+  flex-wrap: wrap;
+}
+
+.sectionheading {
+  font-size: 35px;
+  background-color: #f6f6f6;
 }
 
 .contact-form {
@@ -208,6 +250,7 @@ h1 {
   margin: 50px auto;
   background-color: #f6f6f6;
   padding: 20px;
+  border-radius: 8px;
 }
 .background:hover {
   box-shadow: 0 0 2px 2px;
@@ -346,6 +389,9 @@ footer p {
   }
   article p {
     max-width: 60%;
+  }
+  .sectionheading {
+    font-size: 45px;
   }
 }
 @media screen and (min-width: 992px) {
