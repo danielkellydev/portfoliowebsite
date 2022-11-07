@@ -271,11 +271,11 @@ h1 {
 
 .blogpost {
   max-width: 1000px;
-  padding: 50px;
   margin: 50px auto;
-  max-height: 800px;
+  max-height: 1000px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .blogimage {
@@ -373,9 +373,6 @@ footer p {
   .heading {
     font-size: 3em;
   }
-  .blogpost {
-    align-items: center;
-  }
   .blogpost .blogimage {
     max-width: 50%;
     margin: 10px;
@@ -392,6 +389,9 @@ footer p {
   }
   .sectionheading {
     font-size: 45px;
+  }
+  header a img {
+    width: 30%;
   }
 }
 @media screen and (min-width: 992px) {
